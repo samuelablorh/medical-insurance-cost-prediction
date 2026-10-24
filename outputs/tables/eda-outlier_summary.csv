@@ -1,0 +1,4 @@
+,feature,lower_bound,upper_bound,outlier_count,outlier_percentage
+1,bmi,13.674999999999994,47.31500000000001,9,0.67
+0,age,-9.0,87.0,0,0.0
+2,children,-3.0,5.0,0,0.0

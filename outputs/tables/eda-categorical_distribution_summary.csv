@@ -1,0 +1,9 @@
+,feature,category,count,percentage
+0,gender,male,675,50.49
+1,gender,female,662,49.51
+2,smoker,no,1063,79.51
+3,smoker,yes,274,20.49
+4,region,southeast,364,27.23
+5,region,southwest,325,24.31
+6,region,northwest,324,24.23
+7,region,northeast,324,24.23
