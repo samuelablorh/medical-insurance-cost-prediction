@@ -1,0 +1,4 @@
+,Feature_1,Feature_2,Cramers_V
+0,smoker,region,0.08762334733206638
+1,gender,smoker,0.08371540921652165
+2,gender,region,0.0244383731996253
