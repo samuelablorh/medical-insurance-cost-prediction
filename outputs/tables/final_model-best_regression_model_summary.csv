@@ -1,12 +1,12 @@
 ,Value
-Model,Elastic Net
-Initial CV RMSE,11066.438614163566
-Initial CV RMSE Std,419.8715579177557
-Initial Test RMSE,12788.322290140917
-Initial Test MAE,9718.814729624943
-Initial Test R2,0.11000930581568735
-Tuned CV RMSE,10999.904053143175
-Tuned Test RMSE,12705.168194235164
-Tuned Test MAE,9764.508649330006
-Tuned Test R2,0.12154573136862101
-Best Parameters,"{'model__alpha': 0.1, 'model__l1_ratio': 0.5, 'model__max_iter': 20000}"
+Model,XGBoost
+Initial CV RMSE,5428.076433073797
+Initial CV RMSE Std,262.88911928978354
+Initial Test RMSE,4979.572842033823
+Initial Test MAE,2766.208162961958
+Initial Test R2,0.8650594426991274
+Tuned CV RMSE,4548.873069444145
+Tuned Test RMSE,4300.890080290433
+Tuned Test MAE,2461.796785787139
+Tuned Test R2,0.8993358092465269
+Best Parameters,"{'model__colsample_bytree': 0.8, 'model__learning_rate': 0.03, 'model__max_depth': 2, 'model__n_estimators': 200, 'model__subsample': 1.0}"
