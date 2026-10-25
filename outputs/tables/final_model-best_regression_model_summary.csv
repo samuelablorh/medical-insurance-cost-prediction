@@ -1,12 +1,12 @@
 ,Value
 Model,XGBoost
-Initial CV RMSE,5428.076433073797
-Initial CV RMSE Std,262.88911928978354
-Initial Test RMSE,4979.572842033823
-Initial Test MAE,2766.208162961958
-Initial Test R2,0.8650594426991274
-Tuned CV RMSE,4548.873069444145
-Tuned Test RMSE,4300.890080290433
-Tuned Test MAE,2461.796785787139
-Tuned Test R2,0.8993358092465269
-Best Parameters,"{'model__colsample_bytree': 0.8, 'model__learning_rate': 0.03, 'model__max_depth': 2, 'model__n_estimators': 200, 'model__subsample': 1.0}"
+Initial CV RMSE,5382.716667941826
+Initial CV RMSE Std,273.04337550482194
+Initial Test RMSE,4892.099043110162
+Initial Test MAE,2730.389888620901
+Initial Test R2,0.8697586761422659
+Tuned CV RMSE,4550.924273219118
+Tuned Test RMSE,4261.7614061265995
+Tuned Test MAE,2456.59160111917
+Tuned Test R2,0.9011591243122846
+Best Parameters,"{'model__colsample_bytree': 0.8, 'model__learning_rate': 0.03, 'model__max_depth': 2, 'model__n_estimators': 200, 'model__subsample': 0.8}"

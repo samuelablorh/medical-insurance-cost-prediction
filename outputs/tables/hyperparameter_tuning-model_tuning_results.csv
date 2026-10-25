@@ -1,11 +1,11 @@
 ,Model,Best CV RMSE,Best Parameters
-0,XGBoost,4548.873069444145,"{'model__colsample_bytree': 0.8, 'model__learning_rate': 0.03, 'model__max_depth': 2, 'model__n_estimators': 200, 'model__subsample': 1.0}"
-1,LightGBM,4559.377943041583,"{'model__colsample_bytree': 0.8, 'model__learning_rate': 0.03, 'model__max_depth': 3, 'model__n_estimators': 200, 'model__num_leaves': 15, 'model__subsample': 0.8}"
-2,Gradient Boosting,4575.979676209858,"{'model__learning_rate': 0.03, 'model__max_depth': 2, 'model__n_estimators': 200}"
-3,KNN,4772.294666340096,"{'model__n_neighbors': 11, 'model__p': 1, 'model__weights': 'uniform'}"
-4,Random Forest,4877.894706938489,"{'model__max_depth': 10, 'model__min_samples_leaf': 2, 'model__n_estimators': 100}"
-5,Ridge,5021.881566457142,{'model__alpha': 1.0}
-6,Lasso,5022.380790435249,"{'model__alpha': 1.0, 'model__max_iter': 20000}"
-7,Linear Regression,5022.573790708226,{'model__fit_intercept': True}
-8,Elastic Net,5056.831943254166,"{'model__alpha': 0.1, 'model__l1_ratio': 0.8, 'model__max_iter': 20000}"
-9,SVR,5824.149519912904,"{'model__C': 100, 'model__epsilon': 0.1, 'model__kernel': 'linear'}"
+0,XGBoost,4550.924273219118,"{'model__colsample_bytree': 0.8, 'model__learning_rate': 0.03, 'model__max_depth': 2, 'model__n_estimators': 200, 'model__subsample': 0.8}"
+1,LightGBM,4564.177320464341,"{'model__colsample_bytree': 0.8, 'model__learning_rate': 0.03, 'model__max_depth': 3, 'model__n_estimators': 200, 'model__num_leaves': 15, 'model__subsample': 0.8}"
+2,Gradient Boosting,4582.8632203272655,"{'model__learning_rate': 0.03, 'model__max_depth': 2, 'model__n_estimators': 200}"
+3,Ridge,4798.6778796174385,{'model__alpha': 0.1}
+4,Lasso,4798.748010979508,"{'model__alpha': 1.0, 'model__max_iter': 20000}"
+5,Linear Regression,4798.922303991394,{'model__fit_intercept': True}
+6,Random Forest,4813.262833224139,"{'model__max_depth': 10, 'model__min_samples_leaf': 2, 'model__n_estimators': 200}"
+7,KNN,4919.413464734318,"{'model__n_neighbors': 11, 'model__p': 2, 'model__weights': 'uniform'}"
+8,Elastic Net,5006.054927594898,"{'model__alpha': 0.1, 'model__l1_ratio': 0.8, 'model__max_iter': 20000}"
+9,SVR,5868.673290221903,"{'model__C': 100, 'model__epsilon': 0.1, 'model__kernel': 'linear'}"
